@@ -1,5 +1,5 @@
 module.exports = {
-    root: true;
+    root: true,
     parser: '@typescript-esling/parser',
     parserOptions: {
         ecmaVersion: 2020,
