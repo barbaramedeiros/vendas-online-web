@@ -21,7 +21,8 @@ export const ContainerLogin = styled.div`
     position: absolute;
     right: 0;
     top: 0;
-    z-index:2;
+    z-index: 2;
+    padding: 22px;
 `;
 
 export const LogoImage = styled.img``;
@@ -32,5 +33,14 @@ export const LimitedContainer = styled.div`
     justify-content: center;
     width:100%;
     max-width: 498px;
+    
+
+`;
+
+export const ContainerLoginScreen = styled.div`
+    width:100%;
+    display: flex;
+    justify-content: right;
+
 
 `
